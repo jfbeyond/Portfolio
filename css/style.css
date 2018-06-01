@@ -12,8 +12,9 @@
 
   .header_hr {
   	background-color: #7d97ad;
-  	height: 4px;
-  	margin-bottom: 30px;
+  	height: 3.5px;
+  	margin-bottom: 25px;
+    border-style: dotted;
   }
 
   .logo {
@@ -29,24 +30,40 @@
   	font-weight: 100;
   }
 
-  .featured_title {
-  	margin-top: 30px;
+  .header_title h3 {
+  	font-size: 25px;
+  	font-weight: 80;
   }
+
+  .featured {
+  	margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-style: italic;
+  }
+
+
 
   .col-project {
   	margin-bottom: 15px;
   }
 
-  .portfolio_title {
+  .project_caption {
   	color: #2d3c49;
-  	font-size: 35px;
-  	font-weight: 600;
+  	font-size: 30px;
+  	font-weight: 500;
+    margin-top: 15px;
   }
 
   .project_image {
   	/*cursor: pointer;*/
-  	min-height: 225px;
-    max-height: 325px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .project_image img {
+    height: 100%;
+    width: 100%;
   }
 
   footer {
