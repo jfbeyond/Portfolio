@@ -1,6 +1,7 @@
 
+  
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   	color: #7d97ad;
   	font-style: normal;
   	overflow-x: hidden;
@@ -8,6 +9,16 @@
 
   img, embed, object, video {
   	max-width: 100%;
+  }
+
+  a {
+    text-transform: none;
+    color: #7d97ad;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .header_hr {
@@ -18,7 +29,7 @@
   }
 
   .logo {
-  	margin-top: 25px;
+  	margin-top: 10px;
   }
 
   .header_title {
@@ -46,6 +57,7 @@
 
   .col-project {
   	margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   .project_caption {
@@ -57,18 +69,18 @@
 
   .project_image {
   	/*cursor: pointer;*/
-    height: 300px;
-    overflow: hidden;
+    height: auto;
+
   }
 
   .project_image img {
-    height: 100%;
+    height: auto;
     width: 100%;
   }
 
   footer {
-  	margin-top: 40px;
+  	margin-top: 50px;
   	padding: 5px;
-  	background: #02b3e4;
+  	background: #7d97ad;
   	color: #fff;
   }
