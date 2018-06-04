@@ -1,10 +1,10 @@
 
-  
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   	color: #7d97ad;
   	font-style: normal;
   	overflow-x: hidden;
+    background-color: #F8F8FF;
   }
 
   img, embed, object, video {
@@ -21,29 +21,30 @@
     margin-bottom: 0.5rem;
   }
 
-  .header_hr {
+  .hr_prop {
   	background-color: #7d97ad;
-  	height: 3.5px;
-  	margin-bottom: 25px;
-    border-style: dotted;
+  	height: 2px;
+  	margin-bottom: 22px;
+    border-style: inset;
   }
 
   .logo {
   	margin-top: 10px;
+    max-height: 150px;
   }
 
-  .header_title {
+  .header_caption {
   	margin-top: 25px;
   }
 
-  .header_title h1 {
+  .header_caption h1 {
   	font-size: 40px;
   	font-weight: 100;
   }
 
-  .header_title h3 {
+  .header_caption h3 {
   	font-size: 25px;
-  	font-weight: 80;
+  	font-weight: 100;
   }
 
   .featured {
@@ -52,8 +53,6 @@
     font-size: 40px;
     font-style: italic;
   }
-
-
 
   .col-project {
   	margin-bottom: 15px;
@@ -68,9 +67,7 @@
   }
 
   .project_image {
-  	/*cursor: pointer;*/
-    height: auto;
-
+  	height: auto;
   }
 
   .project_image img {
@@ -79,8 +76,8 @@
   }
 
   footer {
-  	margin-top: 50px;
-  	padding: 5px;
-  	background: #7d97ad;
+    background: #7d97ad;
   	color: #fff;
+    margin-top: 50px;
+  	padding: 5px;
   }
