@@ -1,90 +1,97 @@
+	body {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #7d97ad;
+		font-style: normal;
+		overflow-x: hidden;
+		background-color: #F8F8FF;
+	}
 
-  body {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  	color: #7d97ad;
-  	font-style: normal;
-  	overflow-x: hidden;
-    background-color: #F8F8FF;
-  }
+	img, embed, object, video {
+		max-width: 100%;
+	}
 
-  img, embed, object, video {
-  	max-width: 100%;
-  }
+	a {
+		text-transform: none;
+		color: #02b3e4;
+		font-size: 15px;
+	}
 
-  a {
-    text-transform: none;
-    color: #02b3e4;
-  }
+	p {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
 
-  p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+	.hr_prop {
+		background-color: #7d97ad;
+		height: 2px;
+		margin-bottom: 22px;
+		border-style: inset;
+	}
 
-  .hr_prop {
-  	background-color: #7d97ad;
-  	height: 2px;
-  	margin-bottom: 22px;
-    border-style: inset;
-  }
+	.logo {
+		margin-top: 10px;
+		max-height: 150px;
+	}
 
-  .logo {
-  	margin-top: 10px;
-    max-height: 150px;
-  }
+	.header_caption {
+		margin-top: 25px;
+	}
 
-  .header_caption {
-  	margin-top: 25px;
-  }
+	.header_caption h1 {
+		font-size: 40px;
+		font-weight: 100;
+	}
 
-  .header_caption h1 {
-  	font-size: 40px;
-  	font-weight: 100;
-  }
+	.header_caption h3 {
+		font-size: 25px;
+		font-weight: 100;
+	}
 
-  .header_caption h3 {
-  	font-size: 25px;
-  	font-weight: 100;
-  }
+	.featured {
+		margin-top: 35px;
+		margin-bottom: 20px;
+		font-size: 35px;
+		font-style: italic;
+	}
 
-  .featured {
-  	margin-top: 35px;
-    margin-bottom: 20px;
-    font-size: 35px;
-    font-style: italic;
-  }
+	.additional {
+		margin-top: 35px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-style: italic;
+	}
 
-  .col-project {
-  	margin-bottom: 15px;
-    margin-top: 15px;
-  }
+	.col-project {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
 
-  .project_caption {
-  	color: #2d3c49;
-  	font-size: 28px;
-  	font-weight: 400;
-    margin-top: 15px;
-  }
+	.project_caption {
+		color: #2d3c49;
+		font-size: 22px;
+		font-weight: 400;
+		margin-top: 15px;
+	}
 
-  .school_caption {
-    color: #7d97ad; 
-    font-size: 15px;
-    font-weight: 300;
-    margin-top: 0px;
-  }
+	.school_caption {
+		color: #7d97ad;
+		font-size: 14px;
+		font-weight: 300;
+		margin-top: 0px;
+	}
 
-  .project_image {
-  	height: auto;
-  }
+	.project_image {
+		height: auto;
+	}
 
-  .project_image img {
-    height: auto;
-    width: 100%;
-  }
+	.project_image img {
+		height: auto;
+		width: 100%;
+	}
 
-  footer {
-    background: #7d97ad;
-  	color: #fff;
-    margin-top: 50px;
-  	padding: 5px;
-  }
+	footer {
+		background: #7d97ad;
+		color: #fff;
+		margin-top: 50px;
+		padding: 5px;
+	}
