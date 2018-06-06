@@ -24,3 +24,6 @@ HTML file with the layout and contents of my portfolio.
 
 Please clone the project into your computer (folders and html file) and save it keeping its directory structure. Open the html file with your favorite browser.
 I will deploy it soon so it can be visible from the web.
+
+### Acknowledgements:
+UDACITY - 2018
