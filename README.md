@@ -16,7 +16,7 @@ The portfolio project has the following structure:
 
 It contains all the relevant images utilized in my portfolio: logo, main image and three project pictures. In the html file is indicated where I obtained the images from.
 
-### my_portfolio.html: 
+### index.html: 
 
 HTML file with the layout and contents of my portfolio.
 
