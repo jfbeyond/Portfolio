@@ -1,97 +1,99 @@
-	body {
-		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-		color: #7d97ad;
-		font-style: normal;
-		overflow-x: hidden;
-		background-color: #F8F8FF;
-	}
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #7d97ad;
+  font-style: normal;
+  overflow-x: hidden;
+  background-color: #F8F8FF;
+}
 
-	img, embed, object, video {
-		max-width: 100%;
-	}
+img {
+  max-width: 100%;
+}
 
-	a {
-		text-transform: none;
-		color: #02b3e4;
-		font-size: 15px;
-	}
+a {
+  text-transform: none;
+  color: #02b3e4;
+  font-size: 18px;
+  margin-top: 50px;
+}
 
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0.5rem;
-	}
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 
-	.hr_prop {
-		background-color: #7d97ad;
-		height: 2px;
-		margin-bottom: 22px;
-		border-style: inset;
-	}
+footer {
+  background: #7d97ad;
+  color: #fff;
+  margin-top: 20px;
+  padding: 0.1rem;
+}
 
-	.logo {
-		margin-top: 10px;
-		max-height: 150px;
-	}
+.project_image img {
+  height: auto;
+  width: 100%;
+}
 
-	.header_caption {
-		margin-top: 25px;
-	}
+.hr_prop {
+  height: 2px;
+  margin-bottom: 22px;
+  background-color: #7d97ad;
+  border-style: inset;
+}
 
-	.header_caption h1 {
-		font-size: 40px;
-		font-weight: 100;
-	}
+.jflogo {
+  margin-top: 10px;
+  max-height: 150px;
+}
 
-	.header_caption h3 {
-		font-size: 25px;
-		font-weight: 100;
-	}
+.header_caption {
+  margin-top: 25px;
+}
 
-	.featured {
-		margin-top: 35px;
-		margin-bottom: 20px;
-		font-size: 35px;
-		font-style: italic;
-	}
+.header_caption h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
 
-	.additional {
-		margin-top: 35px;
-		margin-bottom: 20px;
-		font-size: 20px;
-		font-style: italic;
-	}
+.header_caption h3 {
+  font-size: 25px;
+  font-weight: 100;
+}
 
-	.col-project {
-		margin-bottom: 15px;
-		margin-top: 15px;
-	}
+.project-title {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-style: none;
+}
 
-	.project_caption {
-		color: #2d3c49;
-		font-size: 22px;
-		font-weight: 400;
-		margin-top: 15px;
-	}
+.additional {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
 
-	.school_caption {
-		color: #7d97ad;
-		font-size: 14px;
-		font-weight: 300;
-		margin-top: 0px;
-	}
+.col-project {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
-	.project_image {
-		height: auto;
-	}
+.project_caption {
+  color: #2d3c49;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 5px;
+}
 
-	.project_image img {
-		height: auto;
-		width: 100%;
-	}
+.school_caption {
+  color: #7d97ad;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
 
-	footer {
-		background: #7d97ad;
-		color: #fff;
-		margin-top: 50px;
-		padding: 5px;
-	}
+.project_image {
+  height: auto;
+}
