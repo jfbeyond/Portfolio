@@ -1,13 +1,11 @@
+/* Generic Rules */
+
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #7d97ad;
   font-style: normal;
   overflow-x: hidden;
   background-color: #f8f8ff;
-}
-
-img {
-  max-width: 100%;
 }
 
 a {
@@ -27,11 +25,6 @@ footer {
   padding: 0.1rem;
 }
 
-.project_image img {
-  height: auto;
-  width: 100%;
-}
-
 .hr_prop {
   height: 2px;
   margin-bottom: 22px;
@@ -43,6 +36,12 @@ footer {
   margin-top: 10px;
   max-height: 150px;
 }
+
+.col-project {
+  margin: 15px 0 15px;
+}
+
+/* Text/Caption Rules */
 
 .header_caption {
   margin-top: 25px;
@@ -59,17 +58,13 @@ footer {
 }
 
 .project-title {
-  margin: 35px 0px 0px;
+  margin: 35px 0 0;
   font-size: 35px;
 }
 
 .additional {
-  margin: 35px 0px 20px;
+  margin: 35px 0 20px;
   font: italic 20px "Lucida Sans Unicode";
-}
-
-.col-project {
-  margin: 15px 0px 15px;
 }
 
 .project_caption {
@@ -81,7 +76,13 @@ footer {
 .school_caption {
   color: #7d97ad;
   font: 300 14px "Lucida Sans Unicode";
-  margin: 15px 0px 05px;
+  margin: 15px 0 5px;
+}
+
+/* Images Rules    */
+
+img {
+  max-width: 100%;
 }
 
 .project_image {
