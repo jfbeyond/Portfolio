@@ -11,15 +11,13 @@ img {
 }
 
 a {
-  text-transform: none;
   color: #02b3e4;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 50px;
 }
 
 p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0 0.5rem;
 }
 
 footer {
@@ -61,39 +59,38 @@ footer {
 }
 
 .project-title {
-  margin-top: 45px;
-  margin-bottom: 20px;
+  margin: 35px 0px 0px;
   font-size: 35px;
-  font-style: none;
 }
 
 .additional {
-  margin-top: 35px;
-  margin-bottom: 20px;
-  font-size: 20px;
-  font-style: italic;
+  margin: 35px 0px 20px;
+  font: italic 20px "Lucida Sans Unicode";
 }
 
 .col-project {
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin: 15px 0px 15px;
 }
 
 .project_caption {
   color: #2d3c49;
-  font-size: 25px;
-  font-weight: 400;
+  font: 400 25px "Lucida Sans Unicode";
   margin-top: 5px;
 }
 
 .school_caption {
   color: #7d97ad;
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  font: 300 14px "Lucida Sans Unicode";
+  margin: 15px 0px 05px;
 }
 
 .project_image {
   height: auto;
+  border-style: outset;
+  border-radius: 3px;
+}
+
+.main_image {
+  height: auto;
+  border-radius: 5px;
 }
